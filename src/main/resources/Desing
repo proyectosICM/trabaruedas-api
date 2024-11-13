@@ -3,13 +3,13 @@ spring.application.name=trabaruedas-api
 spring.datasource.url = jdbc:mysql://localhost:3306/trabaruedasdb
 
 # Database credentials
-spring.datasource.username = icmdb
-spring.datasource.password = dakar*2024
+spring.datasource.username = root
+spring.datasource.password = admin
 
 # Hibernate: automatically updates the database schema on application startup
 spring.jpa.hibernate.ddl-auto = update
 
-server.port = 7071
+server.port = 7072
 
 # JWT (JSON Web Token) configuration for authentication
 # Secret key to generate and verify JWTs
