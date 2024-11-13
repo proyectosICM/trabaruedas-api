@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "wheel-lock")
+@Table(name = "wheel_lock")
 public class WheelLockModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

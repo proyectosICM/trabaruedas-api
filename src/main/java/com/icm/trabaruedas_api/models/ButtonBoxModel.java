@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "button-box")
+@Table(name = "button_box")
 public class ButtonBoxModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
